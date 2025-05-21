@@ -1,0 +1,20 @@
+<!-- サンプル用のダミー画像ファイル。実際のプロジェクトでは写真素材を使用します -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c6a47e;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="sepia" x="0%" y="0%" width="100%" height="100%">
+      <feColorMatrix type="matrix" values="0.393 0.769 0.189 0 0 0.349 0.686 0.168 0 0 0.272 0.534 0.131 0 0 0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)" filter="url(#sepia)"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="40" fill="#3e2f22">物流事業</text>
+  <g fill="#356d9d" transform="translate(370, 280)">
+    <circle cx="0" cy="-10" r="20"/>
+    <path d="M15,-40 C15,-60 -15,-60 -15,-40 L-15,40 L15,40 Z"/>
+    <rect x="20" y="-30" width="40" height="40" rx="5"/>
+    <rect x="20" y="20" width="40" height="20" rx="5"/>
+  </g>
+</svg>

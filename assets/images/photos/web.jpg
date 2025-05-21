@@ -1,0 +1,26 @@
+<!-- サンプル用のダミー画像ファイル。実際のプロジェクトでは写真素材を使用します -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c6a47e;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="sepia" x="0%" y="0%" width="100%" height="100%">
+      <feColorMatrix type="matrix" values="0.393 0.769 0.189 0 0 0.349 0.686 0.168 0 0 0.272 0.534 0.131 0 0 0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)" filter="url(#sepia)"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="40" fill="#3e2f22">WEB開発</text>
+  <g fill="#356d9d" transform="translate(390, 280)">
+    <!-- ノートパソコン -->
+    <rect x="-60" y="-40" width="120" height="70" rx="5"/>
+    <rect x="-55" y="-35" width="110" height="60" fill="#f9f5f0"/>
+    <rect x="-70" y="30" width="140" height="10" rx="2"/>
+    
+    <!-- 画面内のコードイメージ -->
+    <rect x="-40" y="-25" width="70" height="5" opacity="0.7"/>
+    <rect x="-40" y="-15" width="50" height="5" opacity="0.7"/>
+    <rect x="-40" y="-5" width="60" height="5" opacity="0.7"/>
+    <rect x="-40" y="5" width="40" height="5" opacity="0.7"/>
+  </g>
+</svg>

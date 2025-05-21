@@ -1,0 +1,140 @@
+/* レスポンシブスタイル */
+
+/* PC（大）: 1200px以上 */
+@media screen and (min-width: 1201px) {
+    /* ベーススタイルのまま */
+}
+
+/* PC（中）: 1025px〜1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+}
+
+/* タブレット: 768px〜1024px */
+@media screen and (max-width: 1024px) {
+    .global-nav {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--base-color);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+    }
+    
+    .global-nav.active {
+        display: block;
+    }
+    
+    .global-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .global-nav li {
+        margin: 0 0 15px 0;
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+    
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+    
+    .footer-info, 
+    .footer-nav {
+        width: 100%;
+    }
+    
+    .footer-nav {
+        margin-top: 30px;
+    }
+    
+    #formContainer {
+        padding: 30px 25px;
+    }
+}
+
+/* スマホ: 375px〜767px */
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 56.25%; /* 9px */
+    }
+    
+    .header-inner {
+        height: 60px;
+    }
+    
+    .logo {
+        width: 140px;
+    }
+    
+    .global-nav {
+        top: 60px;
+    }
+    
+    main {
+        margin-top: 60px;
+    }
+    
+    .page-header {
+        padding: 40px 0;
+    }
+    
+    .page-title {
+        font-size: 2.8rem;
+    }
+    
+    .contact-section {
+        padding: 50px 0;
+    }
+    
+    .contact-lead {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+    
+    #formContainer {
+        padding: 25px 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .footer-nav li {
+        width: 100%;
+    }
+    
+    .completion-message {
+        padding: 40px 20px;
+    }
+}
+
+/* スマホ（小）: 374px以下 */
+@media screen and (max-width: 374px) {
+    html {
+        font-size: 50%; /* 8px */
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .logo {
+        width: 120px;
+    }
+}
