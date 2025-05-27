@@ -7,7 +7,7 @@
 define('DEBUG_MODE', true);
 
 // 送信先メールアドレス
-define('ADMIN_EMAIL', 'Kageyama@legament.co.jp');
+define('ADMIN_EMAIL', 'info@legament.co.jp');
 
 // メールの件名
 define('MAIL_SUBJECT', '【レガメントHP】お問い合わせ');

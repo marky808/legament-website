@@ -103,7 +103,7 @@ $auto_reply_message .= "-----------------------------------\n";
 $auto_reply_message .= "株式会社レガメント\n";
 $auto_reply_message .= "〒108-0074 東京都港区高輪1-20-2 NEUK白金高輪303\n";
 $auto_reply_message .= "TEL：03-3761-6008\n";
-$auto_reply_message .= "MAIL：Kageyama@legament.co.jp\n";
+$auto_reply_message .= "MAIL：info@legament.co.jp\n";
 $auto_reply_message .= "-----------------------------------\n";
 
 // CC設定（任意）

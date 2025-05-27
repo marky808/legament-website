@@ -716,7 +716,132 @@
     color: var(--heading-color);
 }
 
-/* レスポンシブ調整用 */
+/* お知らせセクション */
+.news-section {
+    padding: 60px 0;
+    background-color: var(--gray);
+}
+
+.news-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.news-item {
+    background-color: var(--white);
+    border-radius: var(--radius);
+    padding: 30px 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-date {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    min-width: 120px;
+}
+
+.news-text {
+    flex: 1;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--heading-color);
+}
+
+.news-link {
+    color: var(--accent-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.news-link:hover {
+    color: #2a5a83;
+    transform: translateX(5px);
+}
+
+.news-link i {
+    transition: var(--transition);
+}
+
+/* グループ会社セクション */
+.group-company-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(53, 109, 157, 0.05), rgba(198, 164, 126, 0.05));
+    border-radius: var(--radius);
+    border: 2px solid rgba(53, 109, 157, 0.1);
+}
+
+.group-company-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.group-company-title i {
+    font-size: 2.4rem;
+}
+
+.group-company-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: var(--radius);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: var(--transition);
+}
+
+.group-company-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.group-company-logo {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--accent-color), var(--sub-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 3rem;
+    flex-shrink: 0;
+}
+
+.group-company-info {
+    flex: 1;
+}
+
+.group-company-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 8px;
+}
+
+.group-company-desc {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
 @media screen and (min-width: 768px) {
     .business-content-wrapper {
         flex-direction: row;
