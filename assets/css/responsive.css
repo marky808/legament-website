@@ -301,6 +301,66 @@
         overflow-wrap: break-word;
         line-height: 1.6;
     }
+    
+    /* フッター・メッセージ・CTAの横並びを縦並びに */
+    .footer-container,
+    .message-content,
+    .cta-buttons {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 20px;
+    }
+    .footer-info, .footer-nav {
+        width: 100% !important;
+        text-align: left;
+    }
+    .footer-nav ul {
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+    .footer-nav li {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .footer-logo img {
+        width: 100px !important;
+        height: auto;
+    }
+    /* メッセージ画像・テキストを縦並び */
+    .message-image, .message-text {
+        min-width: 0;
+        width: 100%;
+    }
+    /* 募集職種詳細を1カラムに */
+    .position-detail dl {
+        grid-template-columns: 1fr !important;
+    }
+    .position-detail dt {
+        border-radius: 4px 4px 0 0;
+    }
+    .position-detail dd {
+        border-radius: 0 0 4px 4px;
+    }
+    /* CTAボタンを縦並び・幅100% */
+    .cta-buttons {
+        width: 100%;
+    }
+    .cta-buttons .btn {
+        width: 100%;
+        min-width: unset;
+        margin-bottom: 10px;
+    }
+    /* 画像のはみ出し防止 */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* ボタンの幅調整 */
+    .btn, .btn.primary-btn, .btn.secondary-btn {
+        width: 100%;
+        min-width: unset;
+        box-sizing: border-box;
+    }
 }
 
 /* スマホ（小）: 374px以下 */
