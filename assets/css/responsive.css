@@ -1,4 +1,4 @@
-/* レスポンシブスタイル */
+﻿/* レスポンシブスタイル */
 
 /* PC（大）: 1200px以上 */
 @media screen and (min-width: 1201px) {
@@ -9,6 +9,12 @@
 @media screen and (max-width: 1200px) {
     .container {
         padding: 0 30px;
+    }
+    
+    /* テーブルの調整 */
+    .company-table th {
+        width: 150px;
+        font-size: 0.9em;
     }
 }
 
@@ -66,6 +72,40 @@
     #formContainer {
         padding: 30px 25px;
     }
+    
+    /* テーブルのレスポンシブ対応 */
+    .company-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .company-table th {
+        width: 120px;
+        font-size: 0.85em;
+        white-space: normal;
+    }
+    
+    .company-table td {
+        white-space: normal;
+        word-break: break-word;
+    }
+    
+    /* 事業内容リストの調整 */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    /* グループ会社セクションの調整 */
+    .group-company-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .group-company-logo {
+        margin-bottom: 15px;
+    }
 }
 
 /* スマホ: 375px〜767px */
@@ -122,6 +162,145 @@
     .completion-message {
         padding: 40px 20px;
     }
+    
+    /* テーブルを縦並びに変更（スマホ対応） */
+    .company-table,
+    .company-table thead,
+    .company-table tbody,
+    .company-table th,
+    .company-table td,
+    .company-table tr {
+        display: block;
+    }
+    
+    .company-table tr {
+        border: 1px solid #f0f0f0;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+    }
+    
+    .company-table th {
+        background-color: rgba(53, 109, 157, 0.1);
+        padding: 12px 15px;
+        width: 100%;
+        font-weight: 700;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 0;
+    }
+    
+    .company-table td {
+        padding: 15px;
+        width: 100%;
+        border-bottom: none;
+        word-break: break-word;
+        line-height: 1.6;
+    }
+    
+    /* 事業内容グリッドを1列に */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* ヒーローセクションのテキスト改行調整 */
+    .hero-title {
+        font-size: 2.2rem;
+        line-height: 1.4;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+    }
+    
+    /* 会社概要のテキスト改行調整 */
+    .company-lead {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.8;
+    }
+    
+    /* メッセージセクションの改行調整 */
+    .message-body p {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.7;
+        margin-bottom: 15px;
+    }
+    
+    /* 事業説明文の改行調整 */
+    .business-description {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.7;
+    }
+    
+    .service-description {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.6;
+    }
+    
+    /* 募集職種テーブルの調整 */
+    .position-detail dl {
+        margin: 0;
+    }
+    
+    .position-detail dt {
+        background-color: rgba(53, 109, 157, 0.1);
+        padding: 10px 15px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 0;
+        border-radius: 4px 4px 0 0;
+    }
+    
+    .position-detail dd {
+        padding: 15px;
+        margin: 0 0 10px 0;
+        background-color: white;
+        border: 1px solid #f0f0f0;
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.6;
+    }
+    
+    .position-detail dt:first-child {
+        margin-top: 0;
+    }
+    
+    /* グループ会社セクションをモバイル用に調整 */
+    .group-company-section {
+        margin-top: 30px;
+    }
+    
+    .group-company-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .group-company-logo {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    
+    /* フッターの調整 */
+    .footer-address,
+    .footer-contact {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        line-height: 1.6;
+    }
 }
 
 /* スマホ（小）: 374px以下 */
@@ -136,5 +315,43 @@
     
     .logo {
         width: 120px;
+    }
+    
+    /* 極小画面での更なる調整 */
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .company-table th,
+    .company-table td {
+        padding: 10px 12px;
+        font-size: 0.9em;
+    }
+    
+    .position-detail dt,
+    .position-detail dd {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
+
+/* iPhone SE などの極小画面 */
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .company-table th,
+    .company-table td {
+        padding: 8px 10px;
+        font-size: 0.85em;
     }
 }
