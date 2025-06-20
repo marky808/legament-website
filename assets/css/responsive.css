@@ -574,3 +574,34 @@
         height: auto !important;
         display: block !important;
     }
+/* サービス内容などのリストをモバイルで縦並びに強制 */
+    .business-features ul,
+    .business-features ol,
+    .business-features dl,
+    .position-detail ul,
+    .position-detail ol,
+    .position-detail dl {
+        display: block !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        padding-left: 1.2em !important;
+        padding-right: 1.2em !important;
+        margin: 0 !important;
+    }
+    .business-features li,
+    .position-detail li,
+    .position-detail dt,
+    .position-detail dd {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 0 8px 0 !important;
+        padding: 0 !important;
+        word-break: break-word !important;
+        white-space: normal !important;
+    }
+    /* dl, ul, olの中身も折り返し */
+    dl, ul, ol {
+        flex-direction: column !important;
+        display: block !important;
+        grid-template-columns: none !important;
+    }
