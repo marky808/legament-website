@@ -445,6 +445,32 @@
   }
 }
 
+/* サービスカードのはみ出し防止・余白調整 */
+.service-item {
+    padding: 15px !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+.services-grid {
+    gap: 12px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* 事業概要カードのはみ出し防止・余白調整 */
+.business-overview-cards {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    margin: 20px 0 !important;
+}
+.business-overview-card {
+    padding: 15px !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
 html, body {
   width: 100%;
   max-width: 100vw;
