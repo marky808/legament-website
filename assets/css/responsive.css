@@ -471,6 +471,23 @@
     box-sizing: border-box !important;
 }
 
+/* 業務詳細・代表メッセージ・募集職種のはみ出し防止 */
+.business-item,
+.business-content,
+.message-body,
+.position-item,
+.position-detail {
+    padding: 12px !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+.business-item,
+.position-item {
+    flex-direction: column !important;
+    display: flex !important;
+}
+
 html, body {
   width: 100%;
   max-width: 100vw;
