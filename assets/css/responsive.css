@@ -445,6 +445,39 @@
   }
 }
 
+/* --- PC用グローバルナビのレイアウトを明示的にリセット --- */
+@media screen and (min-width: 1025px) {
+  .global-nav {
+    display: flex !important;
+    position: static !important;
+    width: auto !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    top: auto !important;
+    left: auto !important;
+    z-index: auto !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+  .global-nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 32px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .global-nav li {
+    margin: 0 !important;
+    width: auto !important;
+  }
+  .menu-toggle {
+    display: none !important;
+  }
+}
+
 /* サービスカードのはみ出し防止・余白調整 */
 .service-item {
     padding: 15px !important;
