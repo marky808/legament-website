@@ -481,13 +481,22 @@
 /* --- PCでグローバルナビの三角（ドロップダウン用::after等）を非表示に --- */
 @media screen and (min-width: 1025px) {
   .global-nav li::after,
+  .global-nav li::before,
   .global-nav > ul > li::after,
+  .global-nav > ul > li::before,
+  .global-nav li > a::after,
+  .global-nav li > a::before,
+  .global-nav > ul > li > a::after,
+  .global-nav > ul > li > a::before,
   .global-nav li .arrow,
   .global-nav > ul > li .arrow {
     display: none !important;
     content: none !important;
     border: none !important;
     background: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    box-shadow: none !important;
   }
 }
 
