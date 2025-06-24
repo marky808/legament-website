@@ -478,6 +478,19 @@
   }
 }
 
+/* --- PCでグローバルナビの三角（ドロップダウン用::after等）を非表示に --- */
+@media screen and (min-width: 1025px) {
+  .global-nav li::after,
+  .global-nav > ul > li::after,
+  .global-nav li .arrow,
+  .global-nav > ul > li .arrow {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+    background: none !important;
+  }
+}
+
 /* サービスカードのはみ出し防止・余白調整 */
 .service-item {
     padding: 15px !important;
