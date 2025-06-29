@@ -26,15 +26,7 @@
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.business-overview-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
-    background-color: var(--accent-color);
-}
+/* ビジネス概要カードの左側の青い縦線を削除 */
 
 .business-overview-icon {
     width: 70px;
@@ -445,15 +437,7 @@
     overflow: hidden;
 }
 
-.vision-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
-    background-color: var(--accent-color);
-}
+/* ビジョンアイテムの左側の青い縦線を削除 */
 
 .vision-title {
     font-size: 1.8rem;
@@ -525,11 +509,11 @@
 .history-year {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--accent-color);
+    color: var(--heading-color);
     margin-bottom: 15px;
     display: inline-block;
     padding: 5px 15px;
-    background-color: rgba(53, 109, 157, 0.1);
+    background-color: var(--gray);
     border-radius: 20px;
 }
 
@@ -562,7 +546,7 @@
 .message-header {
     display: flex;
     align-items: flex-end;
-    background-color: var(--accent-color);
+    background: linear-gradient(135deg, var(--accent-color), #4a7ba7);
     padding: 30px;
     color: var(--white);
 }
@@ -815,12 +799,12 @@
 .group-company-logo {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, var(--accent-color), var(--sub-color));
+    background: var(--gray);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--white);
+    color: var(--heading-color);
     font-size: 3rem;
     flex-shrink: 0;
 }

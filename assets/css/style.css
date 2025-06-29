@@ -851,17 +851,7 @@ select {
     color: var(--heading-color);
     margin-bottom: 30px;
     position: relative;
-    padding-left: 15px;
-}
-
-.section-subtitle::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 5px;
-    height: 80%;
-    width: 4px;
-    background-color: var(--accent-color);
+    /* 左側のパディングを削除（青い縦線がないため） */
 }
 
 .message-content {
