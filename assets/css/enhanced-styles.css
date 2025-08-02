@@ -830,26 +830,26 @@
     .business-content-wrapper {
         flex-direction: row;
     }
-    
+
     .message-card {
         flex-direction: row;
     }
-    
+
     .message-header {
         width: 35%;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .message-content {
         width: 65%;
     }
-    
+
     .ceo-profile {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .ceo-image {
         margin-right: 0;
         margin-bottom: 20px;
@@ -860,42 +860,44 @@
     .business-content-wrapper {
         flex-direction: column-reverse;
     }
-    
+
     .business-image-wrapper {
         margin-bottom: 20px;
     }
-    
+
     .philosophy-card {
         padding: 30px 20px;
     }
-    
+
     .history-timeline {
         padding-left: 30px;
     }
-    
+
     .history-item {
         padding-left: 10px;
     }
-    
+
     .history-item::before {
         left: -40px;
     }
-    
+
     .message-header {
         padding: 20px;
     }
-    
+
     .ceo-image {
         width: 80px;
         height: 80px;
     }
-      .message-content {
+
+    .message-content {
         padding: 30px 20px;
     }
-    
+
     .company-profile-card {
         padding: 25px 10px 20px 10px;
     }
+
     .company-badge-list {
         flex-direction: column;
         gap: 10px;
@@ -958,12 +960,14 @@
     margin-top: 25px;
     text-align: center;
 }
+
 .company-badge-list {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
 }
+
 .company-badge {
     display: inline-flex;
     align-items: center;
@@ -973,27 +977,31 @@
     font-weight: 500;
     border-radius: 20px;
     padding: 8px 18px;
-    box-shadow: 0 2px 8px rgba(53,109,157,0.08);
+    box-shadow: 0 2px 8px rgba(53, 109, 157, 0.08);
     letter-spacing: 0.05em;
     transition: background 0.3s;
 }
+
 .company-badge i {
     margin-right: 8px;
     font-size: 1.2em;
 }
+
 .company-section-icon {
     display: inline-block;
     margin-bottom: 10px;
 }
+
 .section-lead {
     font-size: 1.4rem;
     color: var(--text-color);
     margin-bottom: 20px;
 }
+
 .company-profile-card {
     background: var(--white);
     border-radius: var(--radius);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
     padding: 40px 30px 30px 30px;
     max-width: 700px;
     margin: 0 auto;
