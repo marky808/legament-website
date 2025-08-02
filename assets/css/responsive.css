@@ -10,7 +10,7 @@
     .container {
         padding: 0 30px;
     }
-    
+
     /* テーブルの調整 */
     .company-table th {
         width: 150px;
@@ -30,79 +30,79 @@
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         padding: 20px 0;
     }
-    
+
     .global-nav.active {
         display: block;
     }
-    
+
     .global-nav ul {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .global-nav li {
         margin: 0 0 15px 0;
     }
-    
+
     .menu-toggle {
         display: flex !important;
     }
-    
+
     .menu-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
-    
+
     .menu-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-    
+
     .menu-toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
-    
-    .footer-info, 
+
+    .footer-info,
     .footer-nav {
         width: 100%;
     }
-    
+
     .footer-nav {
         margin-top: 30px;
     }
-    
+
     #formContainer {
         padding: 30px 25px;
     }
-    
+
     /* テーブルのレスポンシブ対応 */
     .company-table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
-    
+
     .company-table th {
         width: 120px;
         font-size: 0.85em;
         white-space: normal;
     }
-    
+
     .company-table td {
         white-space: normal;
         word-break: break-word;
     }
-    
+
     /* 事業内容リストの調整 */
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
-    
+
     /* グループ会社セクションの調整 */
     .group-company-card {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .group-company-logo {
         margin-bottom: 15px;
     }
@@ -111,58 +111,59 @@
 /* スマホ: 375px〜767px */
 @media screen and (max-width: 767px) {
     html {
-        font-size: 56.25%; /* 9px */
+        font-size: 56.25%;
+        /* 9px */
     }
-    
+
     .header-inner {
         height: 70px;
     }
-    
+
     .logo {
         width: 150px;
     }
-    
+
     .global-nav {
         top: 70px;
     }
-    
+
     main {
         margin-top: 70px;
     }
-    
+
     .page-header {
         padding: 40px 0;
     }
-    
+
     .page-title {
         font-size: 2.8rem;
     }
-    
+
     .contact-section {
         padding: 50px 0;
     }
-    
+
     .contact-lead {
         font-size: 1.6rem;
         margin-bottom: 30px;
     }
-    
+
     #formContainer {
         padding: 25px 20px;
     }
-    
+
     .form-group {
         margin-bottom: 20px;
     }
-    
+
     .footer-nav li {
         width: 100%;
     }
-    
+
     .completion-message {
         padding: 40px 20px;
     }
-    
+
     /* テーブルを縦並びに変更（スマホ対応） */
     .company-table,
     .company-table thead,
@@ -172,7 +173,7 @@
     .company-table tr {
         display: block;
     }
-    
+
     .company-table tr {
         border: 1px solid #f0f0f0;
         border-radius: 8px;
@@ -181,7 +182,7 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         overflow: hidden;
     }
-    
+
     .company-table th {
         background-color: rgba(53, 109, 157, 0.1);
         padding: 12px 15px;
@@ -190,7 +191,7 @@
         border-bottom: 1px solid #e0e0e0;
         margin-bottom: 0;
     }
-    
+
     .company-table td {
         padding: 15px;
         width: 100%;
@@ -198,13 +199,13 @@
         word-break: break-word;
         line-height: 1.6;
     }
-    
+
     /* 事業内容グリッドを1列に */
     .services-grid {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    
+
     /* ヒーローセクションのテキスト改行調整 */
     .hero-title {
         font-size: 2.2rem;
@@ -212,21 +213,21 @@
         word-break: keep-all;
         overflow-wrap: break-word;
     }
-    
+
     .hero-subtitle {
         font-size: 1.4rem;
         line-height: 1.6;
         word-break: keep-all;
         overflow-wrap: break-word;
     }
-    
+
     /* 会社概要のテキスト改行調整 */
     .company-lead {
         word-break: keep-all;
         overflow-wrap: break-word;
         line-height: 1.8;
     }
-    
+
     /* メッセージセクションの改行調整 */
     .message-body p {
         word-break: keep-all;
@@ -234,25 +235,25 @@
         line-height: 1.7;
         margin-bottom: 15px;
     }
-    
+
     /* 事業説明文の改行調整 */
     .business-description {
         word-break: keep-all;
         overflow-wrap: break-word;
         line-height: 1.7;
     }
-    
+
     .service-description {
         word-break: keep-all;
         overflow-wrap: break-word;
         line-height: 1.6;
     }
-    
+
     /* 募集職種テーブルの調整 */
     .position-detail dl {
         margin: 0;
     }
-    
+
     .position-detail dt {
         background-color: rgba(53, 109, 157, 0.1);
         padding: 10px 15px;
@@ -261,7 +262,7 @@
         margin-bottom: 0;
         border-radius: 4px 4px 0 0;
     }
-    
+
     .position-detail dd {
         padding: 15px;
         margin: 0 0 10px 0;
@@ -273,27 +274,27 @@
         overflow-wrap: break-word;
         line-height: 1.6;
     }
-    
+
     .position-detail dt:first-child {
         margin-top: 0;
     }
-    
+
     /* グループ会社セクションをモバイル用に調整 */
     .group-company-section {
         margin-top: 30px;
     }
-    
+
     .group-company-card {
         flex-direction: column;
         text-align: center;
         padding: 20px;
     }
-    
+
     .group-company-logo {
         margin-bottom: 15px;
         margin-right: 0;
     }
-    
+
     /* フッターの調整 */
     .footer-address,
     .footer-contact {
@@ -301,7 +302,7 @@
         overflow-wrap: break-word;
         line-height: 1.6;
     }
-    
+
     /* フッター・メッセージ・CTAの横並びを縦並びに */
     .footer-container,
     .message-content,
@@ -310,53 +311,69 @@
         align-items: stretch !important;
         gap: 20px;
     }
-    .footer-info, .footer-nav {
+
+    .footer-info,
+    .footer-nav {
         width: 100% !important;
         text-align: left;
     }
+
     .footer-nav ul {
         flex-direction: column !important;
         align-items: flex-start;
     }
+
     .footer-nav li {
         width: 100% !important;
         margin-bottom: 10px;
     }
+
     .footer-logo img {
         width: 100px !important;
         height: auto;
     }
+
     /* メッセージ画像・テキストを縦並び */
-    .message-image, .message-text {
+    .message-image,
+    .message-text {
         min-width: 0;
         width: 100%;
     }
+
     /* 募集職種詳細を1カラムに */
     .position-detail dl {
         grid-template-columns: 1fr !important;
     }
+
     .position-detail dt {
         border-radius: 4px 4px 0 0;
     }
+
     .position-detail dd {
         border-radius: 0 0 4px 4px;
     }
+
     /* CTAボタンを縦並び・幅100% */
     .cta-buttons {
         width: 100%;
     }
+
     .cta-buttons .btn {
         width: 100%;
         min-width: unset;
         margin-bottom: 10px;
     }
+
     /* 画像のはみ出し防止 */
     img {
         max-width: 100%;
         height: auto;
     }
+
     /* ボタンの幅調整 */
-    .btn, .btn.primary-btn, .btn.secondary-btn {
+    .btn,
+    .btn.primary-btn,
+    .btn.secondary-btn {
         width: 100%;
         min-width: unset;
         box-sizing: border-box;
@@ -366,32 +383,33 @@
 /* スマホ（小）: 374px以下 */
 @media screen and (max-width: 374px) {
     html {
-        font-size: 50%; /* 8px */
+        font-size: 50%;
+        /* 8px */
     }
-    
+
     .container {
         padding: 0 15px;
     }
-    
+
     .logo {
         width: 120px;
     }
-    
+
     /* 極小画面での更なる調整 */
     .hero-title {
         font-size: 2rem;
     }
-    
+
     .hero-subtitle {
         font-size: 1.3rem;
     }
-    
+
     .company-table th,
     .company-table td {
         padding: 10px 12px;
         font-size: 0.9em;
     }
-    
+
     .position-detail dt,
     .position-detail dd {
         padding: 8px 12px;
@@ -404,11 +422,11 @@
     .container {
         padding: 0 10px;
     }
-    
+
     .hero-title {
         font-size: 1.8rem;
     }
-    
+
     .company-table th,
     .company-table td {
         padding: 8px 10px;
@@ -418,86 +436,94 @@
 
 /* ハンバーガーメニュー表示 */
 @media screen and (max-width: 1024px) {
-  .menu-toggle {
-    display: flex !important;
-  }
-  /* グローバルナビはデフォルト非表示、active時のみ表示 */
-  .global-nav {
-    display: none !important;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100vw;
-    background: var(--base-color);
-    z-index: 200;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    padding: 20px 0;
-  }
-  .global-nav.active {
-    display: block !important;
-  }
-  .global-nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  .global-nav li {
-    margin: 0 0 15px 0;
-  }
+    .menu-toggle {
+        display: flex !important;
+    }
+
+    /* グローバルナビはデフォルト非表示、active時のみ表示 */
+    .global-nav {
+        display: none !important;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100vw;
+        background: var(--base-color);
+        z-index: 200;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+    }
+
+    .global-nav.active {
+        display: block !important;
+    }
+
+    .global-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .global-nav li {
+        margin: 0 0 15px 0;
+    }
 }
 
 /* --- PC用グローバルナビのレイアウトを明示的にリセット --- */
 @media screen and (min-width: 1025px) {
-  .global-nav {
-    display: flex !important;
-    position: static !important;
-    width: auto !important;
-    background: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    top: auto !important;
-    left: auto !important;
-    z-index: auto !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-  }
-  .global-nav ul {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-    gap: 32px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .global-nav li {
-    margin: 0 !important;
-    width: auto !important;
-  }
-  .menu-toggle {
-    display: none !important;
-  }
+    .global-nav {
+        display: flex !important;
+        position: static !important;
+        width: auto !important;
+        background: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        top: auto !important;
+        left: auto !important;
+        z-index: auto !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+    }
+
+    .global-nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        gap: 32px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .global-nav li {
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
 }
 
 /* --- PCでグローバルナビの三角（ドロップダウン用::after等）を非表示に --- */
 @media screen and (min-width: 1025px) {
-  .global-nav li::after,
-  .global-nav li::before,
-  .global-nav > ul > li::after,
-  .global-nav > ul > li::before,
-  .global-nav li > a::after,
-  .global-nav li > a::before,
-  .global-nav > ul > li > a::after,
-  .global-nav > ul > li > a::before,
-  .global-nav li .arrow,
-  .global-nav > ul > li .arrow {
-    display: none !important;
-    content: none !important;
-    border: none !important;
-    background: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    box-shadow: none !important;
-  }
+
+    .global-nav li::after,
+    .global-nav li::before,
+    .global-nav>ul>li::after,
+    .global-nav>ul>li::before,
+    .global-nav li>a::after,
+    .global-nav li>a::before,
+    .global-nav>ul>li>a::after,
+    .global-nav>ul>li>a::before,
+    .global-nav li .arrow,
+    .global-nav>ul>li .arrow {
+        display: none !important;
+        content: none !important;
+        border: none !important;
+        background: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        box-shadow: none !important;
+    }
 }
 
 /* サービスカードのはみ出し防止・余白調整 */
@@ -507,6 +533,7 @@
     max-width: 100% !important;
     box-sizing: border-box;
 }
+
 .services-grid {
     gap: 12px !important;
     margin-left: 0 !important;
@@ -519,6 +546,7 @@
     gap: 12px !important;
     margin: 20px 0 !important;
 }
+
 .business-overview-card {
     padding: 15px !important;
     min-width: 0 !important;
@@ -527,233 +555,274 @@
 }
 
 /* --- 業務詳細・代表メッセージ・募集職種のはみ出し完全防止 --- */
-    .business-item,
-    .business-content,
-    .message-body,
-    .position-item,
-    .position-detail,
-    .position-detail dl,
-    .position-detail dt,
-    .position-detail dd {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        min-width: 0 !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        word-break: break-word !important;
-        overflow-wrap: break-word !important;
-        white-space: normal !important;
-    }
-    .business-item,
-    .position-item {
-        flex-direction: column !important;
-        display: flex !important;
-    }
-    /* --- お知らせ・NEWSの縦書き防止 --- */
-    .news-item, .news-content, .news-section, .section-header, .section-title, .section-subtitle {
-        writing-mode: horizontal-tb !important;
-        text-orientation: mixed !important;
-        word-break: break-word !important;
-        white-space: normal !important;
-        letter-spacing: normal !important;
-        text-align: left !important;
-    }
-    /* お知らせカードの幅調整 */
-    .news-item {
-        max-width: 100% !important;
-        min-width: 0 !important;
-        box-sizing: border-box !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    
-    /* ① NEWSセクションの美しい横書き・余白・折り返し・レイアウト調整 */
-    .news-section {
-        padding: 30px 0 10px 0 !important;
-    }
-    .news-content {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 12px !important;
-        align-items: stretch !important;
-        width: 100% !important;
-        margin: 0 !important;
-    }
-    .news-item {
-        background: #fff !important;
-        border-radius: 8px !important;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
-        padding: 14px 16px !important;
-        font-size: 1.4rem !important;
-        line-height: 1.7 !important;
-        color: #333 !important;
-        display: block !important;
-        width: 100% !important;
-        overflow: visible !important;
-        word-break: break-word !important;
-        white-space: normal !important;
-        margin: 0 !important;
-    }
-    .section-title, .section-subtitle {
-        font-size: 1.6rem !important;
-        margin-bottom: 8px !important;
-        text-align: left !important;
-        letter-spacing: 0.05em !important;
-    }
+.business-item,
+.business-content,
+.message-body,
+.position-item,
+.position-detail,
+.position-detail dl,
+.position-detail dt,
+.position-detail dd {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
 
-    /* ② 事業内容・募集職種の本文やリスト・テーブル・dl,dd,dtも折り返し・はみ出し防止 */
-    .business-item, .business-content, .business-description, .service-description, .business-features, .business-features li,
-    .position-item, .position-detail, .position-detail dl, .position-detail dt, .position-detail dd, .position-detail ul, .position-detail li,
-    .message-body, .message-body p {
-        max-width: 100vw !important;
-        min-width: 0 !important;
-        box-sizing: border-box !important;
-        overflow-wrap: break-word !important;
-        word-break: break-word !important;
-        white-space: normal !important;
-        font-size: 1.4rem !important;
-        line-height: 1.7 !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    /* dl, ul, liのリストも横スクロール禁止 */
-    dl, ul, ol {
-        max-width: 100vw !important;
-        overflow-x: auto !important;
-        padding-left: 1.2em !important;
-        padding-right: 1.2em !important;
-    }
-    /* 画像もはみ出し防止 */
-    img {
-        max-width: 100% !important;
-        height: auto !important;
-        display: block !important;
-    }
+.business-item,
+.position-item {
+    flex-direction: column !important;
+    display: flex !important;
+}
+
+/* --- お知らせ・NEWSの縦書き防止 --- */
+.news-item,
+.news-content,
+.news-section,
+.section-header,
+.section-title,
+.section-subtitle {
+    writing-mode: horizontal-tb !important;
+    text-orientation: mixed !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+}
+
+/* お知らせカードの幅調整 */
+.news-item {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* ① NEWSセクションの美しい横書き・余白・折り返し・レイアウト調整 */
+.news-section {
+    padding: 30px 0 10px 0 !important;
+}
+
+.news-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.news-item {
+    background: #fff !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+    padding: 14px 16px !important;
+    font-size: 1.4rem !important;
+    line-height: 1.7 !important;
+    color: #333 !important;
+    display: block !important;
+    width: 100% !important;
+    overflow: visible !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    margin: 0 !important;
+}
+
+.section-title,
+.section-subtitle {
+    font-size: 1.6rem !important;
+    margin-bottom: 8px !important;
+    text-align: left !important;
+    letter-spacing: 0.05em !important;
+}
+
+/* ② 事業内容・募集職種の本文やリスト・テーブル・dl,dd,dtも折り返し・はみ出し防止 */
+.business-item,
+.business-content,
+.business-description,
+.service-description,
+.business-features,
+.business-features li,
+.position-item,
+.position-detail,
+.position-detail dl,
+.position-detail dt,
+.position-detail dd,
+.position-detail ul,
+.position-detail li,
+.message-body,
+.message-body p {
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    font-size: 1.4rem !important;
+    line-height: 1.7 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* dl, ul, liのリストも横スクロール禁止 */
+dl,
+ul,
+ol {
+    max-width: 100vw !important;
+    overflow-x: auto !important;
+    padding-left: 1.2em !important;
+    padding-right: 1.2em !important;
+}
+
+/* 画像もはみ出し防止 */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
 /* サービス内容などのリストをモバイルで縦並びに強制 */
-    .business-features ul,
-    .business-features ol,
-    .business-features dl,
-    .position-detail ul,
-    .position-detail ol,
-    .position-detail dl {
-        display: block !important;
-        flex-direction: column !important;
-        grid-template-columns: none !important;
-        padding-left: 1.2em !important;
-        padding-right: 1.2em !important;
-        margin: 0 !important;
-    }
-    .business-features li,
-    .position-detail li,
-    .position-detail dt,
-    .position-detail dd {
-        display: block !important;
-        width: 100% !important;
-        margin: 0 0 8px 0 !important;
-        padding: 0 !important;
-        word-break: break-word !important;
-        white-space: normal !important;
-    }
-    /* dl, ul, olの中身も折り返し */
-    dl, ul, ol {
-        flex-direction: column !important;
-        display: block !important;
-        grid-template-columns: none !important;
-    }
-    
-    /* タイトル・文章の途切れ防止と余白調整 */
-    .business-title,
-    .business-description,
-    .service-description,
-    .section-title,
-    .section-subtitle {
-        font-size: 1.6rem !important;
-        line-height: 1.7 !important;
-        max-width: 100vw !important;
-        min-width: 0 !important;
-        box-sizing: border-box !important;
-        word-break: break-word !important;
-        overflow-wrap: break-word !important;
-        white-space: normal !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        text-align: left !important;
-    }
-    /* サービス内容リストのアイコンとテキストのズレ修正 */
-    .business-features li,
-    .position-detail li {
-        display: flex !important;
-        align-items: flex-start !important;
-        gap: 8px !important;
-        position: relative !important;
-        padding-left: 18px !important;
-        margin-bottom: 8px !important;
-    }
-    .business-features li::before,
-    .position-detail li::before {
-        content: '';
-        display: inline-block !important;
-        position: absolute !important;
-        left: 0;
-        top: 0.7em;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: var(--accent-color);
-        margin-right: 8px;
-    }
-    /* リストテキストはアイコンの右に */
-    .business-features li span,
-    .position-detail li span {
-        display: inline !important;
-        margin-left: 0 !important;
-        word-break: break-word !important;
-        white-space: normal !important;
-    }
-    /* --- モバイルでの文章の窮屈さ・改行の窮屈さを解消 --- */
-    .business-description,
-    .service-description,
-    .position-detail dd,
-    .position-detail li,
-    .message-body,
-    .message-body p {
-        padding-left: 0.5em !important;
-        padding-right: 0.5em !important;
-        font-size: 1.5rem !important;
-        line-height: 1.9 !important;
-        letter-spacing: 0.03em !important;
-        word-break: normal !important;
-        overflow-wrap: anywhere !important;
-        white-space: pre-line !important;
-        margin-bottom: 1em !important;
-    }
-    .business-title,
-    .section-title,
-    .section-subtitle {
-        padding-left: 0.2em !important;
-        padding-right: 0.2em !important;
-        font-size: 1.7rem !important;
-        line-height: 1.3 !important;
-        margin-bottom: 0.7em !important;
-        letter-spacing: 0.04em !important;
-        word-break: keep-all !important;
-        white-space: normal !important;
-    }
-    /* リストのアイコンとテキストの間隔を広げる */
-    .business-features li,
-    .position-detail li {
-        gap: 12px !important;
-        padding-left: 22px !important;
-    }
-    .business-features li::before,
-    .position-detail li::before {
-        top: 0.9em;
-        width: 9px;
-        height: 9px;
-    }
-    /* --- 読みやすい改行・余白・行間のための上書き --- */
+.business-features ul,
+.business-features ol,
+.business-features dl,
+.position-detail ul,
+.position-detail ol,
+.position-detail dl {
+    display: block !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    padding-left: 1.2em !important;
+    padding-right: 1.2em !important;
+    margin: 0 !important;
+}
+
+.business-features li,
+.position-detail li,
+.position-detail dt,
+.position-detail dd {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+}
+
+/* dl, ul, olの中身も折り返し */
+dl,
+ul,
+ol {
+    flex-direction: column !important;
+    display: block !important;
+    grid-template-columns: none !important;
+}
+
+/* タイトル・文章の途切れ防止と余白調整 */
+.business-title,
+.business-description,
+.service-description,
+.section-title,
+.section-subtitle {
+    font-size: 1.6rem !important;
+    line-height: 1.7 !important;
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+}
+
+/* サービス内容リストのアイコンとテキストのズレ修正 */
+.business-features li,
+.position-detail li {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+    position: relative !important;
+    padding-left: 18px !important;
+    margin-bottom: 8px !important;
+}
+
+.business-features li::before,
+.position-detail li::before {
+    content: '';
+    display: inline-block !important;
+    position: absolute !important;
+    left: 0;
+    top: 0.7em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    margin-right: 8px;
+}
+
+/* リストテキストはアイコンの右に */
+.business-features li span,
+.position-detail li span {
+    display: inline !important;
+    margin-left: 0 !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+}
+
+/* --- モバイルでの文章の窮屈さ・改行の窮屈さを解消 --- */
+.business-description,
+.service-description,
+.position-detail dd,
+.position-detail li,
+.message-body,
+.message-body p {
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+    font-size: 1.5rem !important;
+    line-height: 1.9 !important;
+    letter-spacing: 0.03em !important;
+    word-break: normal !important;
+    overflow-wrap: anywhere !important;
+    white-space: pre-line !important;
+    margin-bottom: 1em !important;
+}
+
+.business-title,
+.section-title,
+.section-subtitle {
+    padding-left: 0.2em !important;
+    padding-right: 0.2em !important;
+    font-size: 1.7rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.7em !important;
+    letter-spacing: 0.04em !important;
+    word-break: keep-all !important;
+    white-space: normal !important;
+}
+
+/* リストのアイコンとテキストの間隔を広げる */
+.business-features li,
+.position-detail li {
+    gap: 12px !important;
+    padding-left: 22px !important;
+}
+
+.business-features li::before,
+.position-detail li::before {
+    top: 0.9em;
+    width: 9px;
+    height: 9px;
+}
+
+/* --- 読みやすい改行・余白・行間のための上書き --- */
 .business-description,
 .service-description,
 .position-detail dd,
@@ -788,9 +857,11 @@
     display: flex !important;
     align-items: flex-start !important;
     gap: 0 !important;
-    padding-left: 2.2em !important; /* アイコン+余白分を確保 */
+    padding-left: 2.2em !important;
+    /* アイコン+余白分を確保 */
     margin-bottom: 10px !important;
 }
+
 .business-features li::before,
 .position-detail li::before {
     content: '';
@@ -804,6 +875,7 @@
     background: var(--accent-color);
     margin-right: 0;
 }
+
 .business-features li span,
 .position-detail li span {
     margin-left: 0 !important;
