@@ -116,19 +116,19 @@
     }
 
     .header-inner {
-        height: 70px;
+        height: 80px;
     }
 
     .logo {
-        width: 150px;
+        width: 160px;
     }
 
     .global-nav {
-        top: 70px;
+        top: 80px;
     }
 
     main {
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
     .page-header {

@@ -38,11 +38,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 120px;
 }
 
 .logo {
-    width: 200px;
+    width: 220px;
 }
 
 .global-nav ul {
@@ -93,8 +93,8 @@ header {
 
 /* メイン */
 main {
-    margin-top: 100px;
-    min-height: calc(100vh - 100px - 200px);
+    margin-top: 120px;
+    min-height: calc(100vh - 120px - 200px);
     /* header + footer分を引く */
 }
 
