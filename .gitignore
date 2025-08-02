@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/ftp-sync.json
+.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment
+.env
+start-vscode.bat
+
+# Build
+dist/
+build/

@@ -1,0 +1,29 @@
+name: Deploy to Lolipop via FTP
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+    
+    - name: Sync files to server
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ftp.lolipop.jp
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: /
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          .vscode/
+          README.md
