@@ -23,7 +23,7 @@
     .global-nav {
         display: none;
         position: fixed;
-        top: 80px;
+        top: 100px;
         left: 0;
         width: 100%;
         background-color: var(--base-color);
@@ -120,7 +120,7 @@
     }
 
     .logo {
-        width: 160px;
+        width: 100px;
     }
 
     .global-nav {
