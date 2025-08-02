@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <meta name="description" content="株式会社レガメントへのお問い合わせはこちら。物流ソリューションのご相談を承ります。">
     <meta property="og:title" content="お問い合わせ | 株式会社レガメント">
     <meta property="og:description" content="株式会社レガメントは物流とテクノロジーで企業を支援します。">
-    <meta property="og:image" content="https://legament.jp/assets/images/photos/Legament.png">
+    <meta property="og:image" content="https://legament.jp/assets/images/photos/legament-new-logo.png">
     <meta property="og:url" content="https://legament.jp/contact.html">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -21,16 +22,19 @@
       "@type": "Organization",
       "name": "株式会社レガメント",
       "url": "https://legament.jp/",
-      "logo": "https://legament.jp/assets/images/photos/Legament.png"
+      "logo": "https://legament.jp/assets/images/photos/legament-new-logo.png"
     }
     </script>
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="header-inner">                <h1 class="logo">
+            <div class="header-inner">
+                <h1 class="logo">
                     <a href="/">
-                        <img src="assets/images/photos/Legament.png" alt="株式会社レガメント ロゴ" style="height:60px;width:auto;object-fit:contain;">
+                        <img src="assets/images/photos/legament-new-logo.png" alt="株式会社レガメント ロゴ"
+                            style="height:60px;width:auto;object-fit:contain;">
                     </a>
                 </h1>
                 <nav class="global-nav">
@@ -62,38 +66,38 @@
         <section class="contact-section">
             <div class="container">
                 <p class="contact-lead anim-fade-in">弊社へのお問い合わせは、下記フォームよりお気軽にご連絡ください。<br>
-                担当者より、折り返しご連絡いたします。</p>
-                  <div id="formContainer" class="anim-slide-up">
+                    担当者より、折り返しご連絡いたします。</p>
+                <div id="formContainer" class="anim-slide-up">
                     <!-- お問い合わせフォーム -->
                     <form id="contactForm" action="php/contact.php" method="post">
                         <!-- CSRF対策（JavaScriptで実装） -->
                         <input type="hidden" name="csrf_token" id="csrf_token">
                         <!-- ハニーポット対策（スパムボット用の隠しフィールド） -->
                         <input type="text" name="website" id="website" style="display:none;">
-                        
+
                         <div class="form-group">
                             <label for="name">お名前<span class="required">必須</span></label>
                             <input type="text" id="name" name="name" required>
                             <span class="error-message" id="nameError"></span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="company">会社名</label>
                             <input type="text" id="company" name="company">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="email">メールアドレス<span class="required">必須</span></label>
                             <input type="email" id="email" name="email" required>
                             <span class="error-message" id="emailError"></span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="phone">電話番号</label>
                             <input type="tel" id="phone" name="phone">
                             <span class="error-message" id="phoneError"></span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="inquiry_type">お問い合わせ内容<span class="required">必須</span></label>
                             <select id="inquiry_type" name="inquiry_type" required>
@@ -107,13 +111,13 @@
                             </select>
                             <span class="error-message" id="inquiryTypeError"></span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">お問い合わせ詳細<span class="required">必須</span></label>
                             <textarea id="message" name="message" rows="6" required></textarea>
                             <span class="error-message" id="messageError"></span>
                         </div>
-                        
+
                         <div class="form-group privacy-policy">
                             <label class="checkbox-container">
                                 <input type="checkbox" id="privacy" name="privacy" required>
@@ -124,13 +128,13 @@
                             </label>
                             <span class="error-message" id="privacyError"></span>
                         </div>
-                        
+
                         <div class="form-submit">
                             <button type="submit" class="submit-btn">送信する</button>
                         </div>
                     </form>
                 </div>
-                
+
                 <!-- 送信完了メッセージ（PHPから制御） -->
                 <div id="completionMessage" class="completion-message" style="display: none;">
                     <div class="completion-inner">
@@ -148,13 +152,16 @@
 
     <footer>
         <div class="container">
-            <div class="footer-container">                <div class="footer-info">
+            <div class="footer-container">
+                <div class="footer-info">
                     <div class="footer-logo">
-                        <img src="assets/images/photos/Legament.png" alt="株式会社レガメント ロゴ" style="height:60px;width:auto;object-fit:contain;">
+                        <img src="assets/images/photos/legament-new-logo.png" alt="株式会社レガメント ロゴ"
+                            style="height:60px;width:auto;object-fit:contain;">
                     </div>
                     <p class="footer-address">
                         〒108-0074 東京都港区高輪1-20-2 NEUK白金高輪303
-                    </p>                    <p class="footer-contact">
+                    </p>
+                    <p class="footer-contact">
                         TEL：03-3761-6008　/　MAIL：info@legament.co.jp
                     </p>
                 </div>
@@ -170,8 +177,10 @@
             </div>
             <p class="copyright">© 2024 Legament Inc. All rights reserved.</p>
         </div>
-    </footer>    <script src="assets/js/main.js"></script>
+    </footer>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/form-handler.js"></script>
 </body>
+
 </html>
