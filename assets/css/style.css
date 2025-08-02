@@ -38,11 +38,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 100px;
 }
 
 .logo {
-    width: 180px;
+    width: 200px;
 }
 
 .global-nav ul {
@@ -60,7 +60,7 @@ header {
     transition: var(--transition);
 }
 
-.global-nav a:hover, 
+.global-nav a:hover,
 .global-nav a.current {
     color: var(--accent-color);
 }
@@ -93,8 +93,9 @@ header {
 
 /* メイン */
 main {
-    margin-top: 80px;
-    min-height: calc(100vh - 80px - 200px); /* header + footer分を引く */
+    margin-top: 100px;
+    min-height: calc(100vh - 100px - 200px);
+    /* header + footer分を引く */
 }
 
 /* ページヘッダー */
@@ -144,7 +145,7 @@ footer {
     width: 150px;
 }
 
-.footer-address, 
+.footer-address,
 .footer-contact {
     margin-bottom: 15px;
     font-size: 1.4rem;
@@ -308,7 +309,7 @@ select {
     width: 0;
 }
 
-.checkbox-container input:checked ~ .checkmark {
+.checkbox-container input:checked~.checkmark {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
@@ -319,7 +320,7 @@ select {
     display: none;
 }
 
-.checkbox-container input:checked ~ .checkmark:after {
+.checkbox-container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -423,7 +424,8 @@ select {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(30, 40, 60, 0.45); /* 濃いめの暗いオーバーレイ */
+    background: rgba(30, 40, 60, 0.45);
+    /* 濃いめの暗いオーバーレイ */
     z-index: 1;
 }
 
@@ -434,9 +436,10 @@ select {
     margin: 0 auto;
 }
 
-.hero-title, .hero-subtitle {
+.hero-title,
+.hero-subtitle {
     color: #fff;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title {
